@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B026C0C-8813-4B49-8FC1-BEB43FEDD9DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SignUpDemo</RootNamespace>
+    <AssemblyName>SignUpDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>E:\Matrixx Development\ePOSOne_Project\ePOSOne.WinForms\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abonnement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="abonnement.Designer.cs">
+      <DependentUpon>abonnement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD_produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD_produit.Designer.cs">
+      <DependentUpon>ADD_produit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="annulervente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="annulervente.Designer.cs">
+      <DependentUpon>annulervente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bestcaissier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bestcaissier.Designer.cs">
+      <DependentUpon>bestcaissier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boutiqueDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>boutiqueDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="caissierHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="caissierHome.Designer.cs">
+      <DependentUpon>caissierHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chiffre_aff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chiffre_aff.Designer.cs">
+      <DependentUpon>chiffre_aff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="envoyeremails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="envoyeremails.Designer.cs">
+      <DependentUpon>envoyeremails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="facture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facture.Designer.cs">
+      <DependentUpon>facture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="facture2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facture2.Designer.cs">
+      <DependentUpon>facture2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factureimp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factureimp.Designer.cs">
+      <DependentUpon>factureimp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="impr_ecr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="impr_ecr.Designer.cs">
+      <DependentUpon>impr_ecr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inscription3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription3.Designer.cs">
+      <DependentUpon>inscription3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_com.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestion_com.Designer.cs">
+      <DependentUpon>gestion_com.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_fournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestion_fournisseur.Designer.cs">
+      <DependentUpon>gestion_fournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_jouets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestion_jouets.Designer.cs">
+      <DependentUpon>gestion_jouets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription.Designer.cs">
+      <DependentUpon>inscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inscription1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscription1.Designer.cs">
+      <DependentUpon>inscription1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jouet.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="listevente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listevente.Designer.cs">
+      <DependentUpon>listevente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailHelper.cs" />
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="NorthWindEntities.cs" />
+    <Compile Include="panier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panier.Designer.cs">
+      <DependentUpon>panier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="quisommenous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quisommenous.Designer.cs">
+      <DependentUpon>quisommenous.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shop.Designer.cs">
+      <DependentUpon>shop.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="abonnement.resx">
+      <DependentUpon>abonnement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD_produit.resx">
+      <DependentUpon>ADD_produit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="annulervente.resx">
+      <DependentUpon>annulervente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bestcaissier.resx">
+      <DependentUpon>bestcaissier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="caissierHome.resx">
+      <DependentUpon>caissierHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chiffre_aff.resx">
+      <DependentUpon>chiffre_aff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="envoyeremails.resx">
+      <DependentUpon>envoyeremails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facture.resx">
+      <DependentUpon>facture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facture2.resx">
+      <DependentUpon>facture2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factureimp.resx">
+      <DependentUpon>factureimp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestion_com.resx">
+      <DependentUpon>gestion_com.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestion_fournisseur.resx">
+      <DependentUpon>gestion_fournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestion_jouets.resx">
+      <DependentUpon>gestion_jouets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="impr_ecr.resx">
+      <DependentUpon>impr_ecr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription.resx">
+      <DependentUpon>inscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription1.resx">
+      <DependentUpon>inscription1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscription3.resx">
+      <DependentUpon>inscription3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listevente.resx">
+      <DependentUpon>listevente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panier.resx">
+      <DependentUpon>panier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quisommenous.resx">
+      <DependentUpon>quisommenous.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shop.resx">
+      <DependentUpon>shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="boutiqueDataSet.xsc">
+      <DependentUpon>boutiqueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="boutiqueDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>boutiqueDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="boutiqueDataSet.xss">
+      <DependentUpon>boutiqueDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\supplier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\liste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\193779723_834993464108539_7184466796999729910_n.png" />
+    <None Include="Resources\carte-france-jeujouet.jpg" />
+    <None Include="Resources\190091529_835883477304032_2572287747935763422_n1.png" />
+    <None Include="Resources\190091529_835883477304032_2572287747935763422_n.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

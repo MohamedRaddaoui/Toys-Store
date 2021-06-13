@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="boutiqueModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="jouet">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="33" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="agemin" Type="Int32" Nullable="false" />
+    <Property Name="agemax" Type="Int32" Nullable="false" />
+    <Property Name="photo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="prix" Type="Double" Nullable="false" />
+    <Property Name="id_fournisseur" Type="Int32" Nullable="false" />
+    <Property Name="stock" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="boutiqueEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="jouet" EntityType="Self.jouet" />
+  </EntityContainer>
+</Schema>

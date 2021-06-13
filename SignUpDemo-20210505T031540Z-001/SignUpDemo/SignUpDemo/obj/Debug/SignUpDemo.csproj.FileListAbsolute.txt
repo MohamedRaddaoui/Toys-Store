@@ -1,0 +1,75 @@
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe.config
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.pdb
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csprojResolveAssemblyReference.cache
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Form1.resources
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Properties.Resources.resources
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.GenerateResource.Cache
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.exe
+c:\users\salaar husceyn\documents\visual studio 2012\Projects\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.pdb
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe.config
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.pdb
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csprojAssemblyReference.cache
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Form1.resources
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Properties.Resources.resources
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.GenerateResource.cache
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.CopyComplete
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.exe
+C:\Users\dell\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.pdb
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.gestion_jouets.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.shop.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Form1.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Properties.Resources.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.GenerateResource.cache
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.CoreCompileInputs.cache
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.exe
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.pdb
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe.config
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.pdb
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.CopyComplete
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.ADD_produit.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe.config
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.exe
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\SignUpDemo.pdb
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csprojAssemblyReference.cache
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.ADD_produit.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Admin.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.gestion_jouets.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.panier.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.shop.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Form1.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.Properties.Resources.resources
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.GenerateResource.cache
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.CoreCompileInputs.cache
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csproj.CopyComplete
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.exe
+C:\Users\LenoVo\Desktop\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.pdb
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.panier.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.facture.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.abonnement.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.gestion_fournisseur.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.admin.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.csprojAssemblyReference.cache
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.caissierHome.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.listevente.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\EntityFramework.dll
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\EntityFramework.xml
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.factureimp.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.gestion_com.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.facture2.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.inscription.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.inscription1.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.inscription3.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.annulervente.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.bestcaissier.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.envoyeremails.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.chiffre_aff.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.quisommenous.resources
+C:\Users\LenoVo\Desktop\SGBF\SignUpDemo-20210505T031540Z-001\SignUpDemo\SignUpDemo\obj\Debug\SignUpDemo.impr_ecr.resources

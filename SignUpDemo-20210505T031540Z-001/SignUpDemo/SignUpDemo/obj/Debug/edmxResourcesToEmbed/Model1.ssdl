@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="boutiqueModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="jouet">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="33" Nullable="false" />
+    <Property Name="agemin" Type="int" Nullable="false" />
+    <Property Name="agemax" Type="int" Nullable="false" />
+    <Property Name="photo" Type="varchar" MaxLength="100" />
+    <Property Name="prix" Type="float" Nullable="false" />
+    <Property Name="id_fournisseur" Type="int" Nullable="false" />
+    <Property Name="stock" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="boutiqueModelStoreContainer">
+    <EntitySet Name="jouet" EntityType="Self.jouet" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

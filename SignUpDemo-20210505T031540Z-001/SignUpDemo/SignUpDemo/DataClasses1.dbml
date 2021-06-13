@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="boutique" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=desktop-00nlft6\sqlexpress;Initial Catalog=boutique;Integrated Security=True;Pooling=False" SettingsObjectName="SignUpDemo.Properties.Settings" SettingsPropertyName="boutiqueConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.type_fournisseur" Member="type_fournisseur">
+    <Type Name="type_fournisseur">
+      <Column Name="Id_four" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="fournisseur_type_fournisseur" Member="fournisseur" ThisKey="Id_four" OtherKey="id" Type="fournisseur" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pannier" Member="pannier">
+    <Type Name="pannier">
+      <Column Name="id_cmd" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_client" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="id_jouet" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="quantite" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="jouet_pannier" Member="jouet" ThisKey="id_jouet" OtherKey="id" Type="jouet" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.num_fournisseur" Member="num_fournisseur">
+    <Type Name="num_fournisseur">
+      <Column Name="Id_four" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="num_tel" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="fournisseur_num_fournisseur" Member="fournisseur" ThisKey="Id_four" OtherKey="id" Type="fournisseur" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.liste_email" Member="liste_email">
+    <Type Name="liste_email">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.jouet" Member="jouet">
+    <Type Name="jouet">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="VarChar(33) NOT NULL" CanBeNull="false" />
+      <Column Name="agemin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="agemax" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="photo" Type="System.String" DbType="VarChar(90)" CanBeNull="true" />
+      <Column Name="prix" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="id_fournisseur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="stock" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="jouet_pannier" Member="pannier" ThisKey="id" OtherKey="id_jouet" Type="pannier" />
+      <Association Name="jouet_facture_jouet" Member="facture_jouet" ThisKey="id" OtherKey="id_jouet" Type="facture_jouet" />
+      <Association Name="fournisseur_jouet" Member="fournisseur" ThisKey="id_fournisseur" OtherKey="id" Type="fournisseur" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.fournisseur" Member="fournisseur">
+    <Type Name="fournisseur">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="mail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="adresse" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="fournisseur_type_fournisseur" Member="type_fournisseur" ThisKey="id" OtherKey="Id_four" Type="type_fournisseur" />
+      <Association Name="fournisseur_num_fournisseur" Member="num_fournisseur" ThisKey="id" OtherKey="Id_four" Type="num_fournisseur" />
+      <Association Name="fournisseur_jouet" Member="jouet" ThisKey="id" OtherKey="id_fournisseur" Type="jouet" />
+    </Type>
+  </Table>
+  <Table Name="dbo.facture_jouet" Member="facture_jouet">
+    <Type Name="facture_jouet">
+      <Column Name="Id_fact" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_jouet" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="quantite" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="jouet_facture_jouet" Member="jouet" ThisKey="id_jouet" OtherKey="id" Type="jouet" IsForeignKey="true" />
+      <Association Name="Facture_facture_jouet" Member="Facture" ThisKey="Id_fact" OtherKey="Id" Type="Facture" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Facture" Member="Facture">
+    <Type Name="Facture">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="login_caissier" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="login_client" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="situation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Facture_facture_jouet" Member="facture_jouet" ThisKey="Id" OtherKey="Id_fact" Type="facture_jouet" />
+      <Association Name="client_Facture" Member="client" ThisKey="login_client" OtherKey="login" Type="client" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.client" Member="client">
+    <Type Name="client">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mail" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="login" Type="System.String" DbType="VarChar(40) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="motdepasse" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Association Name="client_Facture" Member="Facture" ThisKey="login" OtherKey="login_client" Type="Facture" />
+    </Type>
+  </Table>
+  <Table Name="dbo.caissier" Member="caissier">
+    <Type Name="caissier">
+      <Column Name="login" Type="System.String" DbType="VarChar(40) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="photo" Type="System.Data.Linq.Binary" DbType="Image NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="numero_teleph" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="numero_securite" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.administrateur" Member="administrateur">
+    <Type Name="administrateur">
+      <Column Name="login" Type="System.String" DbType="VarChar(40) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="adresse_email" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>
